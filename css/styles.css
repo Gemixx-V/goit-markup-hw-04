@@ -343,6 +343,7 @@ a {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  background-color: #ffffff;
 }
 
 .social-links-list {
@@ -376,7 +377,7 @@ a {
   width: 20px;
   height: 20px;
 }
-
+.social-link:focus,
 .social-link:hover {
   fill: white;
   background-color: var(--accent-color);
@@ -619,8 +620,9 @@ a {
   letter-spacing: 0.03em;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-container {
   display: flex;
-
   align-items: baseline;
 }
 
@@ -675,6 +677,7 @@ a {
   width: 206px;
   height: 80px;
   display: block;
+  text-align: left;
 }
 
 .title {
@@ -685,6 +688,7 @@ a {
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   margin-bottom: 20px;
 }
 
@@ -711,7 +715,7 @@ a {
   fill: white;
   background: rgba(255, 255, 255, 0.1);
 }
-
+.footer-social-link:focus,
 .footer-social-link:hover {
   background: var(--accent-color);
 }
